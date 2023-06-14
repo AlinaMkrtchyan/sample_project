@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_project/component/mixins/theme_addition.dart';
-import 'package:task_project/shared/constants/app_colors.dart';
+import 'package:sample_project/component/mixins/theme_addition.dart';
+import 'package:sample_project/shared/constants/app_colors.dart';
 
 class ButtonWidget extends StatelessWidget with ThemeStatelessAddition {
   const ButtonWidget(

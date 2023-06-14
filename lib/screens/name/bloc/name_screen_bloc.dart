@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:task_project/screens/name/bloc/name_screen_event.dart';
-import 'package:task_project/screens/name/bloc/name_screen_state.dart';
-import 'package:task_project/shared/repositories/user_repository.dart';
+import 'package:sample_project/screens/name/bloc/name_screen_event.dart';
+import 'package:sample_project/screens/name/bloc/name_screen_state.dart';
+import 'package:sample_project/shared/repositories/user_repository.dart';
 
 class NameScreenBloc extends Bloc<NameScreenEvent, NameScreenState> {
   NameScreenBloc({required this.repository}) : super(NameInitState()) {

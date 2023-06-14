@@ -3,10 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
-import 'package:task_project/screens/name/bloc/name_screen_bloc.dart';
-import 'package:task_project/screens/name/name_screen.dart';
-import 'package:task_project/shared/repositories/shared_prefs.dart';
-import 'package:task_project/shared/repositories/user_repository.dart';
+import 'package:sample_project/screens/name/bloc/name_screen_bloc.dart';
+import 'package:sample_project/screens/name/name_screen.dart';
+import 'package:sample_project/shared/repositories/shared_prefs.dart';
+import 'package:sample_project/shared/repositories/user_repository.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

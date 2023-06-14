@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:task_project/component/mixins/theme_addition.dart';
-import 'package:task_project/screens/age/age_enum.dart';
-import 'package:task_project/shared/constants/app_colors.dart';
+import 'package:sample_project/component/mixins/theme_addition.dart';
+import 'package:sample_project/screens/age/age_enum.dart';
+import 'package:sample_project/shared/constants/app_colors.dart';
 
 class AgeButton extends StatelessWidget with ThemeStatelessAddition {
   const AgeButton(

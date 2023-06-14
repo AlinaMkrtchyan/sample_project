@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:task_project/component/mixins/theme_addition.dart';
-import 'package:task_project/screens/name/bloc/name_screen_bloc.dart';
-import 'package:task_project/screens/name/bloc/name_screen_event.dart';
-import 'package:task_project/screens/name/bloc/name_screen_state.dart';
-import 'package:task_project/shared/constants/app_colors.dart';
+import 'package:sample_project/component/mixins/theme_addition.dart';
+import 'package:sample_project/screens/name/bloc/name_screen_bloc.dart';
+import 'package:sample_project/screens/name/bloc/name_screen_event.dart';
+import 'package:sample_project/screens/name/bloc/name_screen_state.dart';
+import 'package:sample_project/shared/constants/app_colors.dart';
 
 class FormFieldWidget extends StatefulWidget {
   const FormFieldWidget({required this.title, Key? key}) : super(key: key);

@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:task_project/screens/age/age_enum.dart';
-import 'package:task_project/screens/age/bloc/age_screen_event.dart';
-import 'package:task_project/screens/age/bloc/age_screen_state.dart';
-import 'package:task_project/shared/repositories/user_repository.dart';
+import 'package:sample_project/screens/age/age_enum.dart';
+import 'package:sample_project/screens/age/bloc/age_screen_event.dart';
+import 'package:sample_project/screens/age/bloc/age_screen_state.dart';
+import 'package:sample_project/shared/repositories/user_repository.dart';
 
 class AgeScreenBloc extends Bloc<AgeScreenEvent, AgeScreenState> {
   AgeScreenBloc({required this.userRepository}) : super(AgeInitState()) {

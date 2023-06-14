@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:task_project/screens/age/age_enum.dart';
+import 'package:sample_project/screens/age/age_enum.dart';
 
 abstract class AgeScreenEvent extends Equatable {
   const AgeScreenEvent();

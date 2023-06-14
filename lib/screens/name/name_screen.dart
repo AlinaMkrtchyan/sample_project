@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:task_project/component/app_bar_widget.dart';
-import 'package:task_project/component/button_widget.dart';
-import 'package:task_project/component/title_widget.dart';
-import 'package:task_project/screens/age/age_range_screen.dart';
-import 'package:task_project/screens/age/bloc/age_screen_bloc.dart';
-import 'package:task_project/screens/name/bloc/name_screen_bloc.dart';
-import 'package:task_project/screens/name/bloc/name_screen_event.dart';
-import 'package:task_project/screens/name/bloc/name_screen_state.dart';
-import 'package:task_project/screens/name/form_field_widget.dart';
-import 'package:task_project/shared/constants/app_colors.dart';
-import 'package:task_project/shared/repositories/user_repository.dart';
+import 'package:sample_project/component/app_bar_widget.dart';
+import 'package:sample_project/component/button_widget.dart';
+import 'package:sample_project/component/title_widget.dart';
+import 'package:sample_project/screens/age/age_range_screen.dart';
+import 'package:sample_project/screens/age/bloc/age_screen_bloc.dart';
+import 'package:sample_project/screens/name/bloc/name_screen_bloc.dart';
+import 'package:sample_project/screens/name/bloc/name_screen_event.dart';
+import 'package:sample_project/screens/name/bloc/name_screen_state.dart';
+import 'package:sample_project/screens/name/form_field_widget.dart';
+import 'package:sample_project/shared/constants/app_colors.dart';
+import 'package:sample_project/shared/repositories/user_repository.dart';
 
 class NameScreen extends StatefulWidget {
   const NameScreen({Key? key}) : super(key: key);

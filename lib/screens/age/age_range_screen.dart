@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:task_project/component/app_bar_widget.dart';
-import 'package:task_project/component/button_widget.dart';
-import 'package:task_project/component/title_widget.dart';
-import 'package:task_project/screens/age/age_button.dart';
-import 'package:task_project/screens/age/age_enum.dart';
-import 'package:task_project/screens/age/bloc/age_screen_bloc.dart';
-import 'package:task_project/screens/age/bloc/age_screen_event.dart';
-import 'package:task_project/screens/age/bloc/age_screen_state.dart';
+import 'package:sample_project/component/app_bar_widget.dart';
+import 'package:sample_project/component/button_widget.dart';
+import 'package:sample_project/component/title_widget.dart';
+import 'package:sample_project/screens/age/age_button.dart';
+import 'package:sample_project/screens/age/age_enum.dart';
+import 'package:sample_project/screens/age/bloc/age_screen_bloc.dart';
+import 'package:sample_project/screens/age/bloc/age_screen_event.dart';
+import 'package:sample_project/screens/age/bloc/age_screen_state.dart';
 
 class AgeRangeScreen extends StatefulWidget {
   const AgeRangeScreen({Key? key}) : super(key: key);

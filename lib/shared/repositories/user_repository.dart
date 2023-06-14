@@ -1,4 +1,4 @@
-import 'package:task_project/shared/repositories/shared_prefs.dart';
+import 'package:sample_project/shared/repositories/shared_prefs.dart';
 
 abstract class UserRepository {
   Future<void> applyName(String name);

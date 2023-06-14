@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_project/shared/constants/app_colors.dart';
+import 'package:sample_project/shared/constants/app_colors.dart';
 
 class TitleWidget extends StatelessWidget {
   const TitleWidget(
