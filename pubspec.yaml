@@ -1,0 +1,44 @@
+name: task_project
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+    
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  shared_preferences: ^2.1.2
+  package_info_plus: ^4.0.2
+  flutter_localization: ^0.1.12
+  intl: any
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+
